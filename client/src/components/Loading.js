@@ -1,0 +1,17 @@
+import React from "react";
+
+const Loading = () => {
+	return (
+		<div className="text-center">
+			<div
+				className='spinner-grow'
+				role='status'
+				style={{ width: "100px", height: "100px", marginTop: "100px" }}
+			>
+				<span className='sr-only'>Loading...</span>
+			</div>
+		</div>
+	);
+};
+
+export default Loading;
